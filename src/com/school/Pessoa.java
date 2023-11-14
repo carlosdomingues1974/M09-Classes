@@ -76,4 +76,13 @@ public class Pessoa {
     public void setIdade(int idade) {
         this.idade = idade;
     }
+
+    /**
+     * Imprime todos os dados do objeto
+     */
+    public void imprimirDados(){
+        System.out.println("Nome: "+nome);
+        System.out.println("Apelido: "+apelido);
+        System.out.println("Idade: "+idade+" anos");
+    }
 }
