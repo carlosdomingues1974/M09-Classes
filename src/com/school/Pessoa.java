@@ -28,4 +28,52 @@ public class Pessoa {
         this.apelido = apelido;
         this.idade = idade;
     }
+
+    /**
+     * Obtém o nome da Pessoa
+     * @return devolve o nome da Pessoa
+     */
+    public String getNome() {
+        return nome;
+    }
+
+    /**
+     * Obtém o apelido da Pessoa
+     * @return devolve o apelido da Pessoa
+     */
+    public String getApelido() {
+        return apelido;
+    }
+
+    /**
+     * Obtém a idade da Pessoa
+     * @return devolve a idade da Pessoa
+     */
+    public int getIdade() {
+        return idade;
+    }
+
+    /**
+     * Atribui um novo valor ao atributo nome do objeto
+     * @param nome novo valor para o nome da Pessoa
+     */
+    public void setNome(String nome) {
+        this.nome = nome;
+    }
+
+    /**
+     * Atribui um novo valor ao atributo apelido do objeto
+     * @param apelido novo valor para o apelido da Pessoa
+     */
+    public void setApelido(String apelido) {
+        this.apelido = apelido;
+    }
+
+    /**
+     * Atribui um novo valor ao atributo idade do objeto
+     * @param idade novo valor para a idade da Pessoa
+     */
+    public void setIdade(int idade) {
+        this.idade = idade;
+    }
 }
