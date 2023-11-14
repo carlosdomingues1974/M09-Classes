@@ -85,4 +85,11 @@ public class Pessoa {
         System.out.println("Apelido: "+apelido);
         System.out.println("Idade: "+idade+" anos");
     }
+
+    /**
+     * Imprime uma saudação com todos os dados do objeto
+     */
+    public void dizOla(){
+        System.out.println("Olá, o meu nome é "+nome+" "+apelido+" e tem "+idade+" anos");
+    }
 }
